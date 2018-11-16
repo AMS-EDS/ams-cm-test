@@ -1,6 +1,6 @@
-# KDDI CloudManager Test Project
+# CloudManager Test Project
 
-No-op test project for KDDI CloudManager integration. Contains a single Sling Model, unit tests, and "Hello World" component only.
+No-op test project for CloudManager integration. Contains a single Sling Model, unit tests, and "Hello World" component only.
 
 ## How to build
 
