@@ -5,7 +5,7 @@ No-op test project for CloudManager integration. Contains a single Sling Model, 
 ## How to use
 
 1. Check out this repo: `git clone https://git.corp.adobe.com/jessup/ams-cm-test.git`
-1. Add Cloud Manager as a new remote: `https://adobecloudmanager-acsorg@dev.azure.com/adobecloudmanager-<tenant>/<tenant>/_git/<tenant> (you can get this URL from the VSTS console)
+1. Add Cloud Manager as a new remote: `https://adobecloudmanager-acsorg@dev.azure.com/adobecloudmanager-<tenant>/<tenant>/_git/<tenant>` (you can get this URL from the VSTS console)
 1. Push the project to Cloud Manager: `git push -u cloudmanager --all`
 1. Deploy via Cloud Manager (see CM docs/wiki for how to setup a pipeline and deploy it)
 
