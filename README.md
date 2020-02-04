@@ -1,6 +1,8 @@
-# CloudManager Test Project
+# Cloud Manager Test Project
 
-No-op test project for CloudManager integration. Contains a single Sling Model, unit tests, and "Hello World" component only.
+No-op test project for Cloud Manager integration. Contains a single Sling Model, unit tests, and "Hello World" component only. It is specifically designed to be able to be safely installed alongside existing code/components/etc without interfering or conflicting with them. 
+
+It's purpose is to allow safe testing of CM pipelines, especially deployment pipelines, without the risk of breaking existing content or customisations.
 
 ## How to use
 
