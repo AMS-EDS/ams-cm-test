@@ -7,7 +7,7 @@ It's purpose is to allow safe testing of CM pipelines, especially deployment pip
 ## How to use
 
 1. Check out this repo: `git clone https://git.corp.adobe.com/jessup/ams-cm-test.git`
-1. Add Cloud Manager as a new remote: `https://adobecloudmanager-<tenant>@dev.azure.com/adobecloudmanager-<tenant>/<tenant>/_git/<tenant>` (you can get this URL from the VSTS console)
+1. Add Cloud Manager as a new remote: `git remote add cloudmanager https://git.cloudmanager.adobe.com/<tenant>/<tenant>` (you can get this URL and credentials from Cloud Manager)
 1. Push the project to Cloud Manager: `git push -u cloudmanager --all`
 1. Deploy via Cloud Manager (see CM docs/wiki for how to setup a pipeline and deploy it)
 
