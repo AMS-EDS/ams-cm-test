@@ -9,7 +9,7 @@ It's purpose is to allow safe testing of CM pipelines, especially deployment pip
 1. Check out this repo: `git clone https://git.corp.adobe.com/jessup/ams-cm-test.git`
 1. Add Flow Manager as a new remote: `git remote add cloudmanager https://git.cloudmanager.adobe.com/<tenant>/<tenant>` (you can get this URL and credentials from Cloud Manager)
 1. Push the project to Cloud Manager: `git push -u cloudmanager --all`
-1. Deploy via Cloud Manager (see CM docs/wiki for how to setup a pipeline and deploy it)
+1. Deploy via Flow Manager (see CM docs/wiki for how to setup a pipeline and deploy it)
 
 ## Background
 
